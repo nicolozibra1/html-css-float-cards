@@ -73,3 +73,7 @@ span{
 address{
     color: var(--mail);
 }
+h5{
+    text-align: center;
+    padding:10px;
+}
