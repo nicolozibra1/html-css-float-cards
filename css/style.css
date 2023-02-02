@@ -15,8 +15,14 @@
 }
 
 h1{
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     color: var(--title);
+    font-family: 'Fredoka', sans-serif; 
+}
+
+p{
+    padding: 20px;;
+    text-align: center;
     font-family: 'Fredoka', sans-serif; 
 }
