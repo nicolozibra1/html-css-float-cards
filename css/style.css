@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --title: #e53170;
+    --bgcard: #0f0e17;
+    --mail:#0babee;
+}
+
+.main-container{
+    max-width: 1200px;
+}
