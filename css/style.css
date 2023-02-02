@@ -10,6 +10,13 @@
     --mail:#0babee;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
 .main-container{
     max-width: 1200px;
 }
@@ -21,8 +28,39 @@ h1{
     font-family: 'Fredoka', sans-serif; 
 }
 
-p{
+main > p{
     padding: 20px;;
     text-align: center;
     font-family: 'Fredoka', sans-serif; 
+}
+
+.cards-container{
+    padding:20px;
+    background-color: red;
+
+}
+
+article{
+    float: left;
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+img{
+    float: left;
+    height: 100px;
+}
+
+.info{
+    width: 60%;
+    padding: 10px;;
+}
+
+h3, address, .vocation{
+    margin-left:110px;
+    padding:6px;
+}
+
+span{
+    margin-left: 10px;
 }
